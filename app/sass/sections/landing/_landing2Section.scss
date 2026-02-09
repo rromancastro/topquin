@@ -1,0 +1,25 @@
+#landing2Section {
+    height: auto;
+    width: 100%;
+    padding: 128px 0;
+    h2 {
+        text-align: center;
+        line-height: 1.2;
+        span {
+            &:nth-child(1) {
+                color: #000;
+                background-color: #E0F600;
+                padding: 0 18px;
+                border-radius: 40px;
+            }
+            &:nth-child(3) {
+                color: #E0F600;
+            }
+            &:nth-child(5) {
+                padding: 0 18px;
+                border-radius: 40px;
+                border: 1px solid #ffffffb6;
+            }
+        }
+    }
+}

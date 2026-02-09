@@ -1,0 +1,105 @@
+#landing3Section {
+    height: auto;
+    padding: 64px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+    article {
+        height: 80vh;
+        width: 100%;
+        border-radius: 24px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 32px;
+        background-size: cover;
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            width: 303px;
+            h2 {
+                span {
+                    color: #E0F600;
+                }
+            }
+            a {
+                padding: 16px 32px;
+                border-radius: 40px;
+                border: 1px solid #ffffffbd;
+                display: flex;
+                width: fit-content;
+            }
+        }
+
+        &:nth-child(1) {
+            background-image: url("/landing/card1.png");
+            div {
+                justify-self: flex-end;
+            }
+            img {
+                height: 50vh;
+                object-fit: contain;
+            }
+        }
+
+        &:nth-child(2) {
+            background-image: url("/landing/card2.png");
+            div {
+                justify-self: flex-start;
+            }
+            img {
+                height: 45vh;
+                object-fit: contain;
+                justify-self: flex-end;
+            }
+        }
+
+        &:nth-child(3) {
+            background-image: url("/landing/card3.png");
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            div {
+                background: radial-gradient(50% 50% at 50% 50%, #000000bb 21.63%, rgba(0, 0, 0, 0) 100%);
+                height: 60vh;
+                width: 60vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h2 {
+                    text-align: center;
+                }
+                p {
+                    text-align: center;
+                    line-height: 1.2;
+                    width: 303px;
+                }
+                a {
+                    background-color: #E0F600;
+                    color: #000;
+                    border: none;
+                }
+            }
+        }
+
+        &:nth-child(4) {
+            background-image: url("/landing/card1.png");
+            div {
+                justify-self: flex-end;
+                p {
+                    line-height: 1.2;
+                }
+            }
+            img {
+                height: 50vh;
+                object-fit: contain;
+                justify-self: flex-start;
+            }
+        }
+    }
+}
