@@ -89,7 +89,7 @@
 #landing3Section article div a {
   padding: 16px 32px;
   border-radius: 40px;
-  border: 1px solid rgba(255, 255, 255, 0.7411764706);
+  border: 1px solid #E0F600;
   display: flex;
   width: fit-content;
 }
@@ -251,7 +251,7 @@
   line-height: 1.4;
 }
 #servicios3Section article:nth-child(2) div a, #servicios3Section article:nth-child(4) div a {
-  border: 1px solid rgba(255, 255, 255, 0.7607843137);
+  border: 1px solid #E0F600;
   border-radius: 40px;
   padding: 16px 32px;
   width: fit-content;
@@ -303,6 +303,151 @@
   background-color: #fff;
   color: #000;
   border-radius: 40px;
+}
+
+#aboutHeader {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 12.57%, rgba(0, 0, 0, 0) 76.45%, #000000 98.11%), url("/about/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#aboutHeader div {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.7882352941) 21.63%, rgba(0, 0, 0, 0) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 602px;
+  width: 834px;
+  gap: 32px;
+}
+#aboutHeader div h1 {
+  font-size: 48px;
+  text-align: center;
+  line-height: 1.4;
+}
+#aboutHeader div p {
+  width: 436px;
+  text-align: center;
+  font-weight: 200;
+  line-height: 1.2;
+}
+#aboutHeader div a {
+  background-color: #E0F600;
+  padding: 16px 32px;
+  color: #000000;
+  border-radius: 40px;
+}
+
+#about2Section {
+  padding: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 32px;
+}
+#about2Section h2 {
+  line-height: 1.4;
+}
+#about2Section h2 span {
+  background-color: #E0F600;
+  padding: 0 16px;
+  border-radius: 40px;
+  color: #000;
+}
+#about2Section p {
+  width: 840px;
+  text-align: center;
+  line-height: 1.4;
+  font-size: 24px;
+}
+
+#about3Section {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+#about3SectionCardsContainer {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  gap: 32px;
+  flex-wrap: nowrap;
+}
+#about3SectionCardsContainer article {
+  height: 100%;
+  width: 100%;
+  border-radius: 24px;
+  background-color: red;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 64px;
+}
+#about3SectionCardsContainer article h3 {
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+#about3SectionElement2 {
+  height: 80vh;
+  width: 100%;
+  border-radius: 24px;
+  background-image: url("/landing/card1.png");
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 80px;
+}
+#about3SectionElement2 div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#about3SectionElement2 div h2 span {
+  color: #E0F600;
+}
+#about3SectionElement2 div p {
+  line-height: 1.4;
+}
+#about3SectionElement2 div a {
+  border: 1px solid #E0F600;
+  border-radius: 40px;
+  padding: 16px 32px;
+  width: fit-content;
+}
+#about3SectionElement2 div:nth-child(1) {
+  width: 303px;
+  justify-self: flex-end;
+}
+#about3SectionElement2 div:nth-child(2) div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 440px;
+}
+#about3SectionElement2 div:nth-child(2) div .checkIcon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #E0F600;
+}
+#about3SectionElement2 div:nth-child(2) div h3 {
+  font-size: 32px;
+  line-height: 1.1;
 }
 
 nav {

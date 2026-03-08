@@ -1,0 +1,93 @@
+#about3Section {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#about3SectionCardsContainer {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    flex-wrap: nowrap;
+
+    article {
+        height: 100%;
+        width: 100%;
+        border-radius: 24px;
+        background-color: red;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        padding-bottom: 64px;
+
+        h3 {
+            font-size: 32px;
+            text-align: center;
+            line-height: 1.2;
+        }
+    }
+}
+
+#about3SectionElement2 {
+    height: 80vh;
+    width: 100%;
+    border-radius: 24px;
+    background-image: url("/landing/card1.png");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 80px;
+    
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        h2 {
+            span {
+                color: #E0F600;
+            }
+        }
+
+        p {
+            line-height: 1.4;
+        }
+
+        a {
+            border: 1px solid #E0F600;
+            border-radius: 40px;
+            padding: 16px 32px;
+            width: fit-content;
+        }
+
+        &:nth-child(1) {
+            width: 303px;
+            justify-self: flex-end;
+        }
+
+        &:nth-child(2) {
+            div {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: 440px;
+
+                .checkIcon {
+                    width: 24px;
+                    height: 24px;
+                    flex-shrink: 0;
+                    color: #E0F600;
+                }
+
+                h3 {
+                    font-size: 32px;
+                    line-height: 1.1;
+                }
+            }
+        }
+    }
+}
